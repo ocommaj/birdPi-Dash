@@ -1,0 +1,20 @@
+{
+  "extends" : [
+    "strongloop",
+    "plugin:css-modules/recommended"
+  ],
+  "parser" : "babel-eslint",
+  "env" : { "es6" : true },
+  "plugins" : [
+    "css-modules"
+  ],
+  "rules": {
+   "css-modules/no-unused-class": [2, { "camelCase": true }],
+   "css-modules/no-undef-class": [2, { "camelCase": true }]
+ },
+ "settings": {
+   "css-modules": {
+     "basePath": "app/scripts/..."
+   }
+ }
+}

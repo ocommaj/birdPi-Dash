@@ -1,0 +1,40 @@
+@import './base/resets';
+
+body {
+  background-color: #262626;
+  font-family: monospace;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+iframe {
+  width: 656px;
+  height: 488px;
+  margin-top: -8px;
+  margin-left: -8px;
+
+  overflow: hidden;
+  border: none;
+
+  background-color: #393939;
+}
+
+.iframeWrapper {
+  width: 640px;
+  height: 480px;
+  overflow: hidden;
+
+  border-radius: 1rem;
+  border: solid 2px rgba(#262626, 1);
+}
+
+h1 {
+  font-family: 'Acme', sans-serif;
+  color: rgba(#78a9ff, .8);
+  margin-bottom: .5rem;
+}
